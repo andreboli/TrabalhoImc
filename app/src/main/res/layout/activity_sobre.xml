@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andredeoliveira.trabalhoimc.SobreActivity">
+
+    <TextView
+        android:id="@+id/nome_sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="André Barbosa de Oliveira"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/matricula_sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        android:text="RA: 20166152"
+        app:layout_constraintTop_toBottomOf="@+id/nome_sobre"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/turma_sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        android:text="Sistemas de Informação \n6º Semestre"
+        app:layout_constraintTop_toBottomOf="@+id/matricula_sobre"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/fonte_sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        android:text="Fonte das fórmulas: \nmdsaude.com"
+        app:layout_constraintTop_toBottomOf="@+id/turma_sobre"
+        tools:layout_editor_absoluteX="16dp" />
+</android.support.constraint.ConstraintLayout>
