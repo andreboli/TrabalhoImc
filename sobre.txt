@@ -1,0 +1,5 @@
+Trabalho academico onde foi criado um aplicativo para celulares android que calcula seu peso ideal e IMC
+
+
+
+Feito utilizando Android Studio
